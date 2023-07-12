@@ -1,0 +1,43 @@
+{
+  "alerts": [
+    { "id": 1, "type": "fall", "origin": "Resident 1", "room": "Room 101", "location": "Room 101", "sent": 1689156042, "call": 0},
+    { "id": 2, "type": "fall", "origin": "Resident 2", "room": "Room 101", "location": "Pasillo 2V", "sent": 1689156042, "call": 0},
+    { "id": 3, "type": "fall", "origin": "Resident 3", "room": "Room 101", "location": "Room 101", "sent": 1689156042, "call": 1689166042},
+    { "id": 4, "type": "call", "origin": "Resident 4", "room": "Room 102", "location": "Room 102", "sent": 1689156042, "call": 0},
+    { "id": 5, "type": "call", "origin": "Resident 5", "room": "Room 102", "location": "Room 201", "sent": 1689156042, "call": 0},
+    { "id": 6, "type": "call", "origin": "Resident 6", "room": "Room 102", "location": "Room 102", "sent": 1689156042, "call": 1689166042},
+    { "id": 7, "type": "wandering", "origin": "Resident 7", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 0},
+    { "id": 8, "type": "wandering", "origin": "Resident 8", "room": "Room 103", "location": "Pasillo H1", "sent": 1689156042, "call": 0},
+    { "id": 9, "type": "wandering", "origin": "Resident 9", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 1689166042}
+  ],
+  "rooms": [
+    { "id": 1, "name": "Room 101", "location": "Room 101", "extension": "987101" },
+    { "id": 2, "name": "Room 102", "location": "Room 102", "extension": "987102" },
+    { "id": 3, "name": "Room 103", "location": "Room 103", "extension": "987103" },
+    { "id": 4, "name": "Room 104", "location": "Room 104", "extension": "987104" },
+    { "id": 5, "name": "Room 105", "location": "Room 105", "extension": "987105" },
+    { "id": 6, "name": "Room 106", "location": "Room 106", "extension": "987106" },
+    { "id": 7, "name": "Room 201", "location": "Room 201", "extension": "987201" },
+    { "id": 8, "name": "Room 202", "location": "Room 202", "extension": "987202" },
+    { "id": 9, "name": "Room 203", "location": "Room 203", "extension": "987203" },
+    { "id": 10, "name": "Room 204", "location": "Room 204", "extension": "987204" }
+  ],
+  "residents": [
+    { "id": 1, "name": "Resident 1", "room": "Room 101" },
+    { "id": 2, "name": "Resident 2", "room": "Room 101" },
+    { "id": 3, "name": "Resident 3", "room": "Room 101" },
+    { "id": 4, "name": "Resident 4", "room": "Room 102" },
+    { "id": 5, "name": "Resident 5", "room": "Room 102" },
+    { "id": 6, "name": "Resident 6", "room": "Room 102" },
+    { "id": 7, "name": "Resident 7", "room": "Room 103" },
+    { "id": 8, "name": "Resident 8", "room": "Room 103" },
+    { "id": 9, "name": "Resident 9", "room": "Room 103" },
+    { "id": 10, "name": "Resident 10", "room": "Room 104" },
+    { "id": 11, "name": "Resident 11", "room": "Room 104" },
+    { "id": 12, "name": "Resident 12", "room": "Room 104" },
+    { "id": 13, "name": "Resident 13", "room": "Room 105" },
+    { "id": 14, "name": "Resident 14", "room": "Room 105" },
+    { "id": 15, "name": "Resident 15", "room": "Room 105" },
+    { "id": 16, "name": "Resident 16", "room": "Room 106" }
+  ]
+}
