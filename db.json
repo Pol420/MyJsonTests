@@ -8,7 +8,10 @@
     { "id": 6, "type": "call", "origin": "Resident 6", "room": "Room 102", "location": "Room 102", "sent": 1689156042, "call": 1689166042},
     { "id": 7, "type": "wandering", "origin": "Resident 7", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 0},
     { "id": 8, "type": "wandering", "origin": "Resident 8", "room": "Room 103", "location": "Pasillo H1", "sent": 1689156042, "call": 0},
-    { "id": 9, "type": "wandering", "origin": "Resident 9", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 1689166042}
+    { "id": 9, "type": "wandering", "origin": "Resident 9", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 1689166042},
+    { "id": 7, "type": "button", "origin": "Resident 10", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 0},
+    { "id": 8, "type": "button", "origin": "Resident 11", "room": "Room 103", "location": "Pasillo H1", "sent": 1689156042, "call": 0},
+    { "id": 9, "type": "button", "origin": "Resident 12", "room": "Room 103", "location": "Room 103", "sent": 1689156042, "call": 1689166042}
   ],
   "rooms": [
     { "id": 1, "name": "Room 101", "location": "Room 101", "extension": "987101" },
