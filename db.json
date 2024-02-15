@@ -42,5 +42,32 @@
     { "id": 14, "name": "Resident 14", "room": "Room 105" },
     { "id": 15, "name": "Resident 15", "room": "Room 105" },
     { "id": 16, "name": "Resident 16", "room": "Room 106" }
+  ],
+  "get-workers": [
+    { name: "Worker A", skills: [0, 1], shift: 0, image: null },
+    { name: "Worker B", skills: [1, 2], shift: 0, image: null }
+    { name: "Worker C", skills: [2, 3], shift: 1, image: null },
+    { name: "Worker D", skills: [3, 4], shift: 1, image: null },
+    { name: "Worker E", skills: [4, 5], shift: 2, image: null },
+    { name: "Worker F", skills: [5, 0], shift: 2, image: null },
+    { name: "Worker G", skills: [0, 2], shift: 3, image: null },
+    { name: "Worker H", skills: [1, 3], shift: 3, image: null },
+    { name: "Worker I", skills: [2, 4], shift: 5, image: null }
+  ],
+  "get-shifts": [
+		{ type: 1, range: "7 AM ~ 3 PM", name: "Day", color: "#FF5722", icon: "mdi-weather-sunset"},
+		{ type: 1, range: "3 PM ~ 11 PM", name: "Evening", color: "#009688", icon: "mdi-weather-sunny" },
+		{ type: 1, range: "11 PM ~ 7 AM", name: "Night", color: "#3F51B5", icon: "mdi-weather-night" },
+		{ type: 0, range: "Day/Evening/Night", name: "Rotative", color: "#CDDC39", icon: "mdi-rotate-3d-variant" },
+		{ type: 2, range: "Planned Leave", name: "Vacation", color: "#FFC107", icon: "mdi-island" },
+		{ type: 2, range: "Temporary Leave", name: "Off", color: "#607D8B", icon: "mdi-cancel" }
+  ],
+  "get-skills": [
+    { type: 0, name: "Skill A", color: "#4CAF50", icon: "mdi-bacteria" },
+    { type: 0, name: "Skill B", color: "#FFEB3B", icon: "mdi-account-injury" },
+    { type: 1, name: "Skill C", color: "#FF9800", icon: "mdi-heart" },
+    { type: 1, name: "Skill D", color: "#F44336", icon: "mdi-hospital" },
+    { type: 2, name: "Skill E", color: "#9C27B0", icon: "mdi-pill" },
+    { type: 2, name: "Skill F", color: "#2196F3", icon: "mdi-needle" }
   ]
 }
