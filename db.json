@@ -44,31 +44,31 @@
     { "id": 16, "name": "Resident 16", "room": "Room 106" }
   ],
   "get-workers": [
-    { "id": 0, "name": "Worker A", "skills" [0, 1], "shift" 0, "image" null },
-    { "id": 1, "name": "Worker B", "skills" [1, 2], "shift" 0, "image" null }
-    { "id": 2, "name": "Worker C", "skills" [2, 3], "shift" 1, "image" null },
-    { "id": 3, "name": "Worker D", "skills" [3, 4], "shift" 1, "image" null },
-    { "id": 4, "name": "Worker E", "skills" [4, 5], "shift" 2, "image" null },
-    { "id": 5, "name": "Worker F", "skills" [5, 0], "shift" 2, "image" null },
-    { "id": 6, "name": "Worker G", "skills" [0, 2], "shift" 3, "image" null },
-    { "id": 7, "name": "Worker H", "skills" [1, 3], "shift" 3, "image" null },
-    { "id": 8, "name": "Worker I", "skills" [2, 4], "shift" 5, "image" null }
+    { "id": 0, "name": "Worker A", "skills": [0, 1], "shift" 0, "image" null },
+    { "id": 1, "name": "Worker B", "skills": [1, 2], "shift" 0, "image" null }
+    { "id": 2, "name": "Worker C", "skills": [2, 3], "shift" 1, "image" null },
+    { "id": 3, "name": "Worker D", "skills": [3, 4], "shift" 1, "image" null },
+    { "id": 4, "name": "Worker E", "skills": [4, 5], "shift" 2, "image" null },
+    { "id": 5, "name": "Worker F", "skills": [5, 0], "shift" 2, "image" null },
+    { "id": 6, "name": "Worker G", "skills": [0, 2], "shift" 3, "image" null },
+    { "id": 7, "name": "Worker H", "skills": [1, 3], "shift" 3, "image" null },
+    { "id": 8, "name": "Worker I", "skills": [2, 4], "shift" 5, "image" null }
   ],
   "get-shifts": [
-    { "id": 0, "type" 1, "range" "7 AM ~ 3 PM", "name": "Day", "color" "#FF5722", "icon" "mdi-weather-sunset" },
-    { "id": 1, "type" 1, "range" "3 PM ~ 11 PM", "name": "Evening", "color" "#009688", "icon" "mdi-weather-sunny" },
-    { "id": 2, "type" 1, "range" "11 PM ~ 7 AM", "name": "Night", "color" "#3F51B5", "icon" "mdi-weather-night" },
-    { "id": 3, "type" 0, "range" "Day/Evening/Night", "name": "Rotative", "color" "#CDDC39", "icon" "mdi-rotate-3d-variant" },
-    { "id": 4, "type" 2, "range" "Planned Leave", "name": "Vacation", "color" "#FFC107", "icon" "mdi-island" },
-    { "id": 5, "type" 2, "range" "Temporary Leave", "name": "Off", "color" "#607D8B", "icon" "mdi-cancel" }
+    { "id": 0, "type": 1, "range": "7 AM ~ 3 PM", "name": "Day", "color": "#FF5722", "icon": "mdi-weather-sunset" },
+    { "id": 1, "type": 1, "range": "3 PM ~ 11 PM", "name": "Evening", "color": "#009688", "icon": "mdi-weather-sunny" },
+    { "id": 2, "type": 1, "range": "11 PM ~ 7 AM", "name": "Night", "color": "#3F51B5", "icon": "mdi-weather-night" },
+    { "id": 3, "type": 0, "range": "Day/Evening/Night", "name": "Rotative", "color": "#CDDC39", "icon": "mdi-rotate-3d-variant" },
+    { "id": 4, "type": 2, "range": "Planned Leave", "name": "Vacation", "color": "#FFC107", "icon": "mdi-island" },
+    { "id": 5, "type": 2, "range": "Temporary Leave", "name": "Off", "color": "#607D8B", "icon": "mdi-cancel" }
   ],
   "get-skills": [
-    { "id": 0, "type" 0, "name": "Skill A", "color" "#4CAF50", "icon" "mdi-bacteria" },
-    { "id": 1, "type" 0, "name": "Skill B", "color" "#FFEB3B", "icon" "mdi-account-injury" },
-    { "id": 2, "type" 1, "name": "Skill C", "color" "#FF9800", "icon" "mdi-heart" },
-    { "id": 3, "type" 1, "name": "Skill D", "color" "#F44336", "icon" "mdi-hospital" },
-    { "id": 4, "type" 2, "name": "Skill E", "color" "#9C27B0", "icon" "mdi-pill" },
-    { "id": 5, "type" 2, "name": "Skill F", "color" "#2196F3", "icon" "mdi-needle" }
+    { "id": 0, "type": 0, "name": "Skill A", "color": "#4CAF50", "icon": "mdi-bacteria" },
+    { "id": 1, "type": 0, "name": "Skill B", "color": "#FFEB3B", "icon": "mdi-account-injury" },
+    { "id": 2, "type": 1, "name": "Skill C", "color": "#FF9800", "icon": "mdi-heart" },
+    { "id": 3, "type": 1, "name": "Skill D", "color": "#F44336", "icon": "mdi-hospital" },
+    { "id": 4, "type": 2, "name": "Skill E", "color": "#9C27B0", "icon": "mdi-pill" },
+    { "id": 5, "type": 2, "name": "Skill F", "color": "#2196F3", "icon": "mdi-needle" }
   ],
   "get-plan": [
     {
