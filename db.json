@@ -45,7 +45,7 @@
   ],
   "get-workers": [
     { "id": 0, "name": "Worker A", "skills": [0, 1], "shift": 0, "image": null },
-    { "id": 1, "name": "Worker B", "skills": [1, 2], "shift": 0, "image": null }
+    { "id": 1, "name": "Worker B", "skills": [1, 2], "shift": 0, "image": null },
     { "id": 2, "name": "Worker C", "skills": [2, 3], "shift": 1, "image": null },
     { "id": 3, "name": "Worker D", "skills": [3, 4], "shift": 1, "image": null },
     { "id": 4, "name": "Worker E", "skills": [4, 5], "shift": 2, "image": null },
