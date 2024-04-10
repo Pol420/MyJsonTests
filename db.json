@@ -1,4 +1,6 @@
 {
-	"get-led/1": {"on": false, "color": null},
-	"get-led/2": {"on": true, "color": "green"}
+	"leds": [
+		"get-led/1": {"on": false, "color": null},
+		"get-led/2": {"on": true, "color": "green"}
+	]
 }
